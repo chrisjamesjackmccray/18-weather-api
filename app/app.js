@@ -1,9 +1,9 @@
 import 'es6-promise';
 import 'whatwg-fetch';
 
-navigator.geolocation.getCurrentPosition(function(position) {
-  do_something(position.coords.(34.74648), position.coords.-92.289609);
-});
+// navigator.geolocation.getCurrentPosition(function(position) {
+//   do_something(position.coords.(34.74648), position.coords.-92.289609);
+// });
 
 
 
