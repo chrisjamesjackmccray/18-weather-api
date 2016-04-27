@@ -117,16 +117,56 @@ body {
 
 
   .temp {
+    margin-top: 40px;
     width: 400px;
-    height: 100px;
-    background-color: blue;
+    height: 70px;
+    background-color: #3498DB;
+
 
     h1 {
       color: white;
+      margin: 0;
       font-weight: 100;
-      margin: 20px 0 0 0;
       text-align: center;
+      letter-spacing: 3px;
     }
+
+    .fewclouds {
+      color: white;
+      font-weight: 100;
+      margin: 0;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+
+    .bignumber {
+      width: 400px;
+      height: 80px;
+      background-color: #3498DB;
+    }
+
+    h2 {
+      margin: 0;
+      text-align: center;
+      font-size: 7rem;
+      color: white;
+      font-weight: 200;
+
+      .sup {
+        font-size: 1rem;
+        position: absolute;
+        margin-top: 10px;
+      }
+
+    }
+  }
+
+  .maindaysholder {
+    width: 400px;
+    height: 490px;
+    margin-top: 150px;
+    background-color: green;
+
   }
 
 }
