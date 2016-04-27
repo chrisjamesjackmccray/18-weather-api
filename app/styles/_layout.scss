@@ -10,7 +10,7 @@ body {
 
 .main {
   width: 400px;
-  height: 800px;
+  height: 600px;
   background-color: #3498DB;
   margin: 0 auto;
 
@@ -163,9 +163,9 @@ body {
 
   .maindaysholder {
     width: 380px;
-    height: 490px;
+    height: 290px;
     margin-top: 150px;
-    background-color: green;
+    background-color: #3498DB;
     padding: 10px;
 
     .clearfix {
@@ -177,7 +177,7 @@ body {
       width: 80px;
       height: 20px;
       float: left;
-      background-color: crimson;
+      background-color: #3498DB;
       margin: 0 75px 0 0;
 
       .alldays {
@@ -192,7 +192,7 @@ body {
       width: 80px;
       height: 20px;
       float: left;
-      background-color: blue;
+      background-color: #3498DB;
 
       .fa.fa-cloud {
         float: left;
@@ -207,7 +207,7 @@ body {
       width: 40px;
       height: 20px;
       float: right;
-      background-color: black;
+      background-color: #3498DB;
 
       .lownumber {
         float: left;
@@ -223,7 +223,7 @@ body {
       width: 40px;
       height: 20px;
       float: right;
-      background-color: orange;
+      background-color: #3498DB;
 
       .highnumber {
         float: left;
@@ -233,10 +233,6 @@ body {
       }
 
     }
-
-
-
-
 
   }
 
