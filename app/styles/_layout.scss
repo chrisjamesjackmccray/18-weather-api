@@ -24,12 +24,62 @@ body {
 
   .deviceword {
     color: white;
+    margin: 0 10px 0 10px;
+    float: left;
+  }
+
+  .dropdown {
+    float: left;
     margin: 0 0 0 0;
   }
+
+  .fa.fa-random {
+    margin: 0 0 0 10px;
+    color: #F4A300;
+  }
+
+
+  .portrait {
+    color: #D88A10;
+    margin: 0 10px 0 10px;
+    float: right;
+  }
+
+  #cbox1 {
+    margin: 2px 0 0 10px;
+    background-color: #666666;
+    float: left;
+  }
+
+  .screen {
+    float: left;
+    margin: 0 0 0 10px;
+    color: #929191;
+  }
+
+  .leftnumber {
+    float: left;
+    margin: 0 0 0 10px;
+    color: #FC9A01;
+  }
+
+  .times {
+    float: left;
+    margin: 0 0 0 10px;
+    color: #B4B4B4;
+  }
+
+  .rightnumber {
+    float: left;
+    margin: 0 0 0 10px;
+    color: #FC9A01;
+  }
+
 
   .temp {
     width: 400px;
     height: 200px;
     background-color: black;
   }
+
 }

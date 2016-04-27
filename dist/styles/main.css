@@ -18,7 +18,38 @@ body {
     margin: 0 0 0 0; }
   .main .deviceword {
     color: white;
+    margin: 0 10px 0 10px;
+    float: left; }
+  .main .dropdown {
+    float: left;
     margin: 0 0 0 0; }
+  .main .fa.fa-random {
+    margin: 0 0 0 10px;
+    color: #F4A300; }
+  .main .portrait {
+    color: #D88A10;
+    margin: 0 10px 0 10px;
+    float: right; }
+  .main #cbox1 {
+    margin: 2px 0 0 10px;
+    background-color: #666666;
+    float: left; }
+  .main .screen {
+    float: left;
+    margin: 0 0 0 10px;
+    color: #929191; }
+  .main .leftnumber {
+    float: left;
+    margin: 0 0 0 10px;
+    color: #FC9A01; }
+  .main .times {
+    float: left;
+    margin: 0 0 0 10px;
+    color: #B4B4B4; }
+  .main .rightnumber {
+    float: left;
+    margin: 0 0 0 10px;
+    color: #FC9A01; }
   .main .temp {
     width: 400px;
     height: 200px;
