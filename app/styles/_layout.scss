@@ -162,10 +162,55 @@ body {
   }
 
   .maindaysholder {
-    width: 400px;
+    width: 380px;
     height: 490px;
     margin-top: 150px;
     background-color: green;
+    padding: 10px;
+
+    .clearfix {
+     overflow: auto;
+     zoom: 1;
+    }
+
+    .daydiv {
+      width: 80px;
+      height: 20px;
+      float: left;
+      background-color: crimson;
+      margin: 0 75px 0 0;
+    }
+
+    .clouddiv {
+      width: 80px;
+      height: 20px;
+      float: left;
+      background-color: blue;
+
+    }
+
+    .highdiv {
+      width: 40px;
+      height: 20px;
+      float: right;
+      background-color: black;
+
+    }
+
+    .lowdiv {
+      width: 40px;
+      height: 20px;
+      float: right;
+      background-color: orange;
+
+    }
+
+    .alldays {
+      float: left;
+      margin: 0 0 0 10px;
+      color: white;
+      font-weight: 100;
+    }
 
   }
 
