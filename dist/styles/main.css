@@ -1,3 +1,29 @@
+body {
+  margin: 0; }
+
+.main {
+  width: 400px;
+  height: 800px;
+  background-color: #3498DB;
+  margin: 0 auto; }
+  .main .maintopone {
+    width: 400px;
+    height: 20px;
+    background-color: #494848;
+    margin: 0 0 0 0; }
+  .main .maintoptwo {
+    width: 400px;
+    height: 20px;
+    background-color: #494848;
+    margin: 0 0 0 0; }
+  .main .deviceword {
+    color: white;
+    margin: 0 0 0 0; }
+  .main .temp {
+    width: 400px;
+    height: 200px;
+    background-color: black; }
+
 /*!
  * animate.css -http://daneden.me/animate
  * Version - 3.5.1

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.main {
+  width: 400px;
+  height: 800px;
+  background-color: #3498DB;
+  margin: 0 auto;
+
+  .maintopone {
+    width: 400px;
+    height: 20px;
+    background-color: #494848;
+    margin: 0 0 0 0;
+  }
+
+  .maintoptwo {
+    width: 400px;
+    height: 20px;
+    background-color: #494848;
+    margin: 0 0 0 0;
+  }
+
+  .deviceword {
+    color: white;
+    margin: 0 0 0 0;
+  }
+
+  .temp {
+    width: 400px;
+    height: 200px;
+    background-color: black;
+  }
+}
