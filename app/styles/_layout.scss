@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 
+.topbar {
+  width: 400px;
+  height: 2px;
+  background-color: #FF9019;
+}
+
 .main {
   width: 400px;
   height: 800px;
@@ -75,11 +81,52 @@ body {
     color: #FC9A01;
   }
 
+  .maintoptwosmall {
+    width: 60px;
+    height: 20px;
+    float: left;
+    background-color: none;
+    margin: -2px 0 0 10px;
+    border-left: 1px solid #2B2B2B;
+    border-right: 1px solid #2B2B2B;
+
+    .fa.fa-exchange {
+      margin: 0 0 0 10px;
+      color: #B4B4B4;
+    }
+
+    .divnumber {
+      float: right;
+      margin: 0 10px 0 0;
+      color: #FF9C00;
+    }
+
+  }
+
+  #cbox2 {
+    margin: 2px 0 0 10px;
+    float: left;
+  }
+
+  .zoom {
+    margin: 0;
+    float: left;
+    margin-left: 10px;
+    color: #B3B3B3;
+  }
+
 
   .temp {
     width: 400px;
-    height: 200px;
-    background-color: black;
+    height: 100px;
+    background-color: blue;
+
+    h1 {
+      color: white;
+      font-weight: 100;
+      margin: 20px 0 0 0;
+      text-align: center;
+    }
   }
 
 }
