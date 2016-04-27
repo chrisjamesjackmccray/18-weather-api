@@ -124,26 +124,41 @@ body {
       float: left;
       background-color: crimson;
       margin: 0 75px 0 0; }
+      .main .maindaysholder .daydiv .alldays {
+        float: left;
+        margin: 0 0 0 10px;
+        color: white;
+        font-weight: 100; }
     .main .maindaysholder .clouddiv {
       width: 80px;
       height: 20px;
       float: left;
       background-color: blue; }
-    .main .maindaysholder .highdiv {
-      width: 40px;
-      height: 20px;
-      float: right;
-      background-color: black; }
+      .main .maindaysholder .clouddiv .fa.fa-cloud {
+        float: left;
+        margin: 1px 0 0 30px;
+        color: white;
+        font-weight: 100; }
     .main .maindaysholder .lowdiv {
       width: 40px;
       height: 20px;
       float: right;
+      background-color: black; }
+      .main .maindaysholder .lowdiv .lownumber {
+        float: left;
+        margin: 1px 0 0 10px;
+        color: white;
+        font-weight: 100; }
+    .main .maindaysholder .highdiv {
+      width: 40px;
+      height: 20px;
+      float: right;
       background-color: orange; }
-    .main .maindaysholder .alldays {
-      float: left;
-      margin: 0 0 0 10px;
-      color: white;
-      font-weight: 100; }
+      .main .maindaysholder .highdiv .highnumber {
+        float: left;
+        margin: 1px 0 0 10px;
+        color: white;
+        font-weight: 100; }
 
 /*!
  * animate.css -http://daneden.me/animate
