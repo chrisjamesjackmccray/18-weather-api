@@ -19,6 +19,26 @@ navigator.geolocation.getCurrentPosition(function(position) {
     document.querySelector(".dayfour").textContent = response.list[3].dt;
     document.querySelector(".dayfive").textContent = response.list[4].dt;
     document.querySelector(".daysix").textContent = response.list[5].dt;
+
+
+
+    document.querySelector(".lownumberone").textContent = response.list[1].temp.min;
+    document.querySelector(".highnumberone").textContent = response.list[1].temp.max;
+
+    document.querySelector(".lownumbertwo").textContent = response.list[2].temp.min;
+    document.querySelector(".highnumbertwo").textContent = response.list[2].temp.max;
+
+    document.querySelector(".lownumberthree").textContent = response.list[3].temp.min;
+    document.querySelector(".highnumberthree").textContent = response.list[3].temp.max;
+
+    document.querySelector(".lownumberfour").textContent = response.list[4].temp.min;
+    document.querySelector(".highnumberfour").textContent = response.list[4].temp.max;
+
+    document.querySelector(".lownumberfive").textContent = response.list[5].temp.min;
+    document.querySelector(".highnumberfive").textContent = response.list[5].temp.max;
+
+    document.querySelector(".lownumbersix").textContent = response.list[6].temp.min;
+    document.querySelector(".highnumbersix").textContent = response.list[6].temp.max;
   });
 
 });

@@ -145,7 +145,32 @@ body {
       height: 20px;
       float: right;
       background-color: #3498DB; }
-      .main .maindaysholder .lowdiv .lownumber {
+      .main .maindaysholder .lowdiv .lownumberone {
+        float: left;
+        margin: 1px 0 0 10px;
+        color: white;
+        font-weight: 100; }
+      .main .maindaysholder .lowdiv .lownumbertwo {
+        float: left;
+        margin: 1px 0 0 10px;
+        color: white;
+        font-weight: 100; }
+      .main .maindaysholder .lowdiv .lownumberthree {
+        float: left;
+        margin: 1px 0 0 10px;
+        color: white;
+        font-weight: 100; }
+      .main .maindaysholder .lowdiv .lownumberfour {
+        float: left;
+        margin: 1px 0 0 10px;
+        color: white;
+        font-weight: 100; }
+      .main .maindaysholder .lowdiv .lownumberfive {
+        float: left;
+        margin: 1px 0 0 10px;
+        color: white;
+        font-weight: 100; }
+      .main .maindaysholder .lowdiv .lownumbersix {
         float: left;
         margin: 1px 0 0 10px;
         color: white;
@@ -155,11 +180,49 @@ body {
       height: 20px;
       float: right;
       background-color: #3498DB; }
-      .main .maindaysholder .highdiv .highnumber {
+      .main .maindaysholder .highdiv .highnumberone {
         float: left;
         margin: 1px 0 0 10px;
         color: white;
-        font-weight: 100; }
+        font-weight: 100;
+        padding-right: 1.4px;
+        border-right: .1px solid white; }
+      .main .maindaysholder .highdiv .highnumbertwo {
+        float: left;
+        margin: 1px 0 0 10px;
+        color: white;
+        font-weight: 100;
+        padding-right: 1.4px;
+        border-right: .1px solid white; }
+      .main .maindaysholder .highdiv .highnumberthree {
+        float: left;
+        margin: 1px 0 0 10px;
+        color: white;
+        font-weight: 100;
+        padding-right: 1.4px;
+        border-right: .1px solid white; }
+      .main .maindaysholder .highdiv .highnumberfour {
+        float: left;
+        margin: 1px 0 0 10px;
+        color: white;
+        font-weight: 100;
+        padding-right: 1.4px;
+        border-right: .1px solid white; }
+      .main .maindaysholder .highdiv .highnumberfive {
+        float: left;
+        margin: 1px 0 0 10px;
+        color: white;
+        font-weight: 100;
+        padding-right: 1.4px;
+        border-right: .1px solid white; }
+      .main .maindaysholder .highdiv .highnumbersix {
+        float: left;
+        margin: 1px 0 0 10px;
+        padding-right: 1.4px;
+        color: white;
+        font-weight: 100;
+        padding-right: 1.4px;
+        border-right: .1px solid white; }
 
 /*!
  * animate.css -http://daneden.me/animate
