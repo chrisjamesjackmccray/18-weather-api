@@ -125,7 +125,32 @@ body {
       float: left;
       background-color: #3498DB;
       margin: 0 75px 0 0; }
-      .main .maindaysholder .daydiv .alldays {
+      .main .maindaysholder .daydiv .dayone {
+        float: left;
+        margin: 0 0 0 10px;
+        color: white;
+        font-weight: 100; }
+      .main .maindaysholder .daydiv .daytwo {
+        float: left;
+        margin: 0 0 0 10px;
+        color: white;
+        font-weight: 100; }
+      .main .maindaysholder .daydiv .daythree {
+        float: left;
+        margin: 0 0 0 10px;
+        color: white;
+        font-weight: 100; }
+      .main .maindaysholder .daydiv .dayfour {
+        float: left;
+        margin: 0 0 0 10px;
+        color: white;
+        font-weight: 100; }
+      .main .maindaysholder .daydiv .dayfive {
+        float: left;
+        margin: 0 0 0 10px;
+        color: white;
+        font-weight: 100; }
+      .main .maindaysholder .daydiv .daysix {
         float: left;
         margin: 0 0 0 10px;
         color: white;
