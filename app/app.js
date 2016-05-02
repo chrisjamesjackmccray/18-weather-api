@@ -23,19 +23,18 @@ navigator.geolocation.getCurrentPosition(function(position) {
 
     let days = response.list;
     let day;
-    days.forEach((day) => {
+    days.forEach((day, index) => {
       let date = new Date(day.dt * 1000);
       let dayOfWeek = date.getDay();
 
-      let iconCode = response.list[0].weather[0].icon;
+      let iconCode = day.weather[0].icon;
       let iconCodeUrl = `http://openweathermap.org/img/w/${iconCode}.png`
 
       let img = document.createElement("img");
       img.src = iconCodeUrl;
 
-      document.querySelector('.clouddiv').appendChild(img);
+      document.querySelector('.clouddiv_' + index).appendChild(img);
 
-      document.querySelector('.clouddiv').appendChild(img);
 
 
       let dayOfWeekName
