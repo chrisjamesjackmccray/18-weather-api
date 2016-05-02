@@ -19,6 +19,54 @@ navigator.geolocation.getCurrentPosition(function(position) {
     document.querySelector(".dayfour").textContent = response.list[3].dt;
     document.querySelector(".dayfive").textContent = response.list[4].dt;
     document.querySelector(".daysix").textContent = response.list[5].dt;
+    document.querySelector(".daysix").textContent = response.list[5].dt;
+
+    let days = response.list;
+    let day;
+    days.forEach((day) => {
+      let date = new Date(day.dt * 1000);
+      let dayOfWeek = date.getDay();
+
+      let dayOfWeekName
+          switch (dayOfWeek) {
+            case 0:
+              dayOfWeekName = "Monday";
+              break;
+            case 1:
+              dayOfWeekName = "Tuesday";
+              break;
+            case 2:
+              dayOfWeekName = "Wednesday";
+              break;
+            case 3:
+              dayOfWeekName = "Thursday";
+              break;
+            case 4:
+              dayOfWeekName = "Friday";
+              break;
+            case 5:
+              dayOfWeekName = "Saturday";
+              break;
+            case 6:
+              dayOfWeekName = "Sunday";
+              break;
+            default:
+              dayOfWeekName = "Invalid Day";
+              break;
+          }
+
+
+          document.querySelector(".dayone").textContent = "Monday";
+          document.querySelector(".daytwo").textContent = "Tuesday";
+          document.querySelector(".daythree").textContent = "Wednesday";
+          document.querySelector(".dayfour").textContent = "Thursday";
+          document.querySelector(".dayfive").textContent = "Friday";
+          document.querySelector(".daysix").textContent = "Saturday";
+    });
+
+
+
+
 
 
 

@@ -155,6 +155,11 @@ body {
         margin: 0 0 0 10px;
         color: white;
         font-weight: 100; }
+      .main .maindaysholder .daydiv .dayseven {
+        float: left;
+        margin: 0 0 0 10px;
+        color: white;
+        font-weight: 100; }
     .main .maindaysholder .clouddiv {
       width: 80px;
       height: 20px;
@@ -200,6 +205,11 @@ body {
         margin: 1px 0 0 10px;
         color: white;
         font-weight: 100; }
+      .main .maindaysholder .lowdiv .lownumberseven {
+        float: left;
+        margin: 1px 0 0 10px;
+        color: white;
+        font-weight: 100; }
     .main .maindaysholder .highdiv {
       width: 40px;
       height: 20px;
@@ -241,6 +251,14 @@ body {
         padding-right: 1.4px;
         border-right: .1px solid white; }
       .main .maindaysholder .highdiv .highnumbersix {
+        float: left;
+        margin: 1px 0 0 10px;
+        padding-right: 1.4px;
+        color: white;
+        font-weight: 100;
+        padding-right: 1.4px;
+        border-right: .1px solid white; }
+      .main .maindaysholder .highdiv .highnumberseven {
         float: left;
         margin: 1px 0 0 10px;
         padding-right: 1.4px;

@@ -222,6 +222,13 @@ body {
         color: white;
         font-weight: 100;
       }
+
+      .dayseven {
+        float: left;
+        margin: 0 0 0 10px;
+        color: white;
+        font-weight: 100;
+      }
     }
 
     .clouddiv {
@@ -290,6 +297,13 @@ body {
         font-weight: 100;
       }
 
+      .lownumberseven {
+        float: left;
+        margin: 1px 0 0 10px;
+        color: white;
+        font-weight: 100;
+      }
+
     }
 
     .highdiv {
@@ -344,6 +358,16 @@ body {
       }
 
       .highnumbersix {
+        float: left;
+        margin: 1px 0 0 10px;
+        padding-right: 1.4px;
+        color: white;
+        font-weight: 100;
+        padding-right: 1.4px;
+        border-right: .1px solid white;
+      }
+
+      .highnumberseven {
         float: left;
         margin: 1px 0 0 10px;
         padding-right: 1.4px;
