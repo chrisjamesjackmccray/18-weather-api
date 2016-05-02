@@ -162,7 +162,7 @@ body {
         font-weight: 100; }
     .main .maindaysholder .clouddiv {
       width: 80px;
-      height: 20px;
+      height: 40px;
       float: left;
       background-color: #3498DB; }
       .main .maindaysholder .clouddiv .fa.fa-cloud {

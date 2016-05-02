@@ -27,6 +27,17 @@ navigator.geolocation.getCurrentPosition(function(position) {
       let date = new Date(day.dt * 1000);
       let dayOfWeek = date.getDay();
 
+      let iconCode = response.list[0].weather[0].icon;
+      let iconCodeUrl = `http://openweathermap.org/img/w/${iconCode}.png`
+
+      let img = document.createElement("img");
+      img.src = iconCodeUrl;
+
+      document.querySelector('.clouddiv').appendChild(img);
+
+      document.querySelector('.clouddiv').appendChild(img);
+
+
       let dayOfWeekName
           switch (dayOfWeek) {
             case 0:
@@ -63,10 +74,6 @@ navigator.geolocation.getCurrentPosition(function(position) {
           document.querySelector(".dayfive").textContent = "Friday";
           document.querySelector(".daysix").textContent = "Saturday";
     });
-
-
-
-
 
 
 

@@ -231,20 +231,22 @@ body {
       }
     }
 
-    .clouddiv {
-      width: 80px;
-      height: 20px;
+  .clouddiv {
+    width: 80px;
+    height: 40px;
+    float: left;
+    background-color: #3498DB;
+
+
+
+    .fa.fa-cloud {
       float: left;
-      background-color: #3498DB;
-
-      .fa.fa-cloud {
-        float: left;
-        margin: 1px 0 0 30px;
+      margin: 1px 0 0 30px;
         color: white;
-        font-weight: 100;
-      }
-
+      font-weight: 100;
     }
+
+  }
 
     .lowdiv {
       width: 40px;
